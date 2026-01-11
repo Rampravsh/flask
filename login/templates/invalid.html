@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invalid Credentials</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="error-message">
+        <h2>Invalid Credentials. Please try again.</h2>
+        <a class="try-again-link" href="{{ url_for('login') }}">Try Again</a>
+    </div>
+</body>
+</html>
